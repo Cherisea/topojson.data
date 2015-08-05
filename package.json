@@ -1,0 +1,27 @@
+{
+  "name": "wujunhong",
+  "version": "1.0.0",
+  "description": "A template to create map of China by province using d3js",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wujunhong/d3-china-map.git"
+  },
+  "keywords": [
+    "d3",
+    "topojson",
+    "china"
+  ],
+  "author": "wujunhong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wujunhong/d3-china-map/issues"
+  },
+  "homepage": "https://github.com/wujunhong/d3-china-map"
+}

@@ -9,9 +9,9 @@ var v = Object.keys(umap).map(function(k){return umap[k]})
 
 // LOAD DATA
 queue()
-    .defer(d3.json, "maps/zh-mainland-provinces.topo.json") // mainland
-    .defer(d3.json, "maps/zh-chn-twn.topo.json") // taiwan 
-    .defer(d3.json, "maps/zh-hkg-mac.topo.json") // hk and macau
+    .defer(d3.json, "zh-cn/provinces.json") // mainland
+    .defer(d3.json, "zh-cn/taiwan.json") // taiwan 
+    .defer(d3.json, "zh-cn/hongkong-macau.json") // hk and macau
     .await(drawMap); // function that uses files
 
 // DRAW 
