@@ -1,5 +1,5 @@
 {
-  "name": "wujunhong",
+  "name": "topojson.data",
   "version": "1.0.0",
   "description": "A template to create map of China by province using d3js",
   "main": "index.js",
